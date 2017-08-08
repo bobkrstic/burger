@@ -1,12 +1,44 @@
 
-body {
-	background: lightblue;
+.jumbotron {
+	background-image: url("../img/burger.jpg");
+  /*background-repeat: no-repeat;*/
+  /*background-position: right top;*/
+  /*height: 150px;*/
 }
+
+#eatenBurgers {
+  /*background-image: url("../img/eatenBurger.jpg");*/
+  /*background-position: left;*/
+  padding-left: 20px;
+  opacity: 0.7;
+  font-size: 20px;
+  color: white;
+
+  /*color: gray;*/
+  /*background: white;*/
+}
+
+#eatenBurgersHeader {
+  color: black;
+}
+
+#welcomeHeader {
+  position: center;
+}
+
+
+#hoverBurger:hover{
+  color: blue;
+}
+/*.addBurgerDiv {
+  margin-top: 50px;*/
+  /*background: blue;*/
+/*}*/
 
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  /*background: #faebd7;*/
 }
 
 .label {
@@ -16,13 +48,10 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  /*background: aqua;*/
 }
 
 .form-group {
   margin-bottom: 5px;
 }
 
-#eatButton {
-	background: white;
-}
