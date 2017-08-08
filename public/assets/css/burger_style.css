@@ -15,12 +15,22 @@
 
 #welcomeHeader {
   text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
 
 
+#hoverBurger {
+  text-shadow:5px 5px 10px black;
+}
+
 #hoverBurger:hover{
   color: black;
-  text-shadow:5px 5px 10px black;
+  /*text-shadow:5px 5px 10px black;*/
+}
+
+#addBurgerHeader {
+  text-shadow:5px 5px 10px white;
 }
 
 #glyph {

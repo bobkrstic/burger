@@ -29,8 +29,6 @@ function objToSql(ob) {
 
 
 
-
-
 var orm = {
 
 	all: function(tableInput, cb) {
@@ -43,7 +41,6 @@ var orm = {
     });
 
 	},
-
 
 
 	create: function(table, cols, vals, cb) {
@@ -66,8 +63,6 @@ var orm = {
     });
   },
 
-
-    // An example of objColVals would be {name: panther, sleepy: true}
   update: function(table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
 
@@ -89,5 +84,9 @@ var orm = {
 };
 
 
-
 module.exports = orm;
+
+
+
+
+
